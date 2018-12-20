@@ -9,6 +9,7 @@ function resolve(name) {
 
 // TODO: not work
 module.exports = {
+
   chainWebpack: config => {
     config
     // Interact with entry points
@@ -37,6 +38,6 @@ module.exports = {
 
     config.optimization
       .splitChunks(false) // will cause webworker not work if enable this
-
-  }
+  },
+   baseUrl: './'
 }
