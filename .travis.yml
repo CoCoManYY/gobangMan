@@ -8,8 +8,8 @@ branches:
   only:
   - master
 before_install:
-- git clone https://github.com/CoCoManYY/gobangMan.git
-- cd gobangMan
+#- git clone https://github.com/CoCoManYY/gobangMan.git
+#- cd gobangMan
 install:
 - npm install
 script:
