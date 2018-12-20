@@ -31,7 +31,7 @@
                 <div class="weui-cell__bd">
                     <select class="weui-select" name="lang" :value="lang" @change="setLang">
                         <option value="en">English</option>
-                        <option value="zh">简体中文</option>
+                        <option value="cn">简体中文</option>
                     </select>
                 </div>
             </div>
@@ -84,6 +84,7 @@
             },
             setLang(e) {
                 let value = e.target.value
+                console.log(value);
                 this.$store.dispatch(SET_LANG, value)
                 i18n.locale = value
             },
