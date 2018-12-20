@@ -24,7 +24,7 @@ Zobrist.prototype._rand = function() {
 
 Zobrist.prototype.go = function(x, y, role) {
   var index = this.size * x + y;
-  this.code ^= (role == R.com ? this.com[index] : this.hum[index]);
+  this.code ^= (role === R.com ? this.com[index] : this.hum[index]);
   return this.code;
 }
 

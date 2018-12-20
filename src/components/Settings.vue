@@ -44,8 +44,8 @@
     </div>
     <div class="weui-footer">
       <p class="weui-footer__links">
-        <a href="https://github.com/CoCoManYY/gobang" target="_blank" class="weui-footer__link">Github</a>
-        <a href="javascript:void(0);" class="weui-footer__link">@lihongxun</a>
+        <a href="https://github.com/CoCoManYY/gobangMan.git" target="_blank" class="weui-footer__link">Github</a>
+        <a href="javascript:void(0);" class="weui-footer__link">@CoCoManYY</a>
       </p>
       <p class="weui-footer__text">Copyright © 2018 </p>
     </div>
