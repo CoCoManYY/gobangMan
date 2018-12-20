@@ -1,8 +1,3 @@
-# 高年级研讨
-
-  fork的别人的仓库，感觉太强了！膜一膜！
-  [大佬的仓库地址](https://github.com/lihongxun945/gobang)
-
 # 安装依赖
 
 先执行 `npm install` 安装依赖。然后有如下命令可用：
