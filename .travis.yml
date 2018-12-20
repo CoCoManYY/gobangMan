@@ -19,4 +19,4 @@ after_script:
 - git init
 - git add .
 - git commit -m "page"
-- git push --force --quiet "https://${token}github.com/CoCoManYY/CoCoManYY.github.io.git"
+- git push --force --quiet "https://${token}@github.com/CoCoManYY/CoCoManYY.github.io.git" master:master
