@@ -8,7 +8,7 @@ self.__precacheManifest = [
     "url": "img/win.png"
   },
   {
-    "revision": "60afbb1315520f27021dbb1e663cef6c",
+    "revision": "d4421477c07a582ff3fff484edb47955",
     "url": "index.html"
   },
   {
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "img/avatar.png"
   },
   {
-    "revision": "bfbb497cf5dd5c9e6c18",
+    "revision": "c750747fae2343a62373",
     "url": "app.bundle.js"
   },
   {
-    "revision": "bfbb497cf5dd5c9e6c18",
-    "url": "app.688bd4f4.css"
+    "revision": "c750747fae2343a62373",
+    "url": "app.32e7a81d.css"
   },
   {
     "revision": "b12cd834316ccefa4b39",
