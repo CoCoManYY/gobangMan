@@ -1,0 +1,22 @@
+language: node_js
+node_js: stable
+sudo: required
+cache:
+  directories:
+  - node_modules
+branches:
+  only:
+  - master
+before_install:
+- git clone https://github.com/CoCoManYY/gobangMan.git
+- cd gobangMan
+install:
+- npm install
+script:
+- npm run build
+after_script:
+- cd dist
+- git init
+- git add .
+- git commit -m "page"
+- git push --force --quiet "https://${token}github.com/CoCoManYY/CoCoManYY.github.io.git"
