@@ -8,26 +8,26 @@ import Settings from './views/Settings.vue'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: Home
-    },
-    // {
-    //   path: '/about',
-    //   name: 'about',
-    //   component: About
-    // },
-    {
-      path: '/settings',
-      name: 'settings',
-      component: Settings
-    },
-    // {
-    //   path: '/change',
-    //   name: 'change',
-    //   component: Change
-    // }
-  ]
+    routes: [
+        {
+            path: '/',
+            name: 'home',
+            component: Home
+        },
+        // {
+        //   path: '/about',
+        //   name: 'about',
+        //   component: About
+        // },
+        {
+            path: '/settings',
+            name: 'settings',
+            component: Settings
+        },
+        // {
+        //   path: '/change',
+        //   name: 'change',
+        //   component: Change
+        // }
+    ]
 })

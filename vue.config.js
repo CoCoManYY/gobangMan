@@ -38,6 +38,5 @@ module.exports = {
 
     config.optimization
       .splitChunks(false) // will cause webworker not work if enable this
-  },
-   baseUrl: './'
+  }
 }

@@ -7,15 +7,13 @@ import board from './modules/board.js'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
-  modules: {
-    home,
-    board
-  },
-  state: {
-    version: ""
-  },
-  mutations: {
-  },
-  actions: {
-  }
+    modules: {
+        home,
+        board
+    },
+    state: {
+        version: ""
+    },
+    mutations: {},
+    actions: {}
 })

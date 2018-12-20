@@ -11,18 +11,18 @@
                 </section>
                 <section>
                     <h3>源码和文档</h3>
-                        <ul>
-                            <li>
-                                源码在这里: <a href="https://github.com/lihongxun945/gobang" target="_blank">满满</a>
-                            </li>
-                            <li>有一个手把手的详细教程教你怎么写五子棋AI，版本比较旧，但是仍然值得一看 <a
-                                    href="https://blog.csdn.net/lihongxun945/article/category/6089493">五子棋AI算法-言川的博客</a>
-                            </li>
-                        </ul>
+                    <ul>
+                        <li>
+                            源码在这里: <a href="https://github.com/lihongxun945/gobang" target="_blank">满满</a>
+                        </li>
+                        <li>有一个手把手的详细教程教你怎么写五子棋AI，版本比较旧，但是仍然值得一看 <a
+                                href="https://blog.csdn.net/lihongxun945/article/category/6089493">五子棋AI算法-言川的博客</a>
+                        </li>
+                    </ul>
                 </section>
                 <section>
                     <h3>AI 用到了什么技术</h3>
-                        这是一个基于Alpha-Beta Search的AI。主要用到了如下技术：
+                    这是一个基于Alpha-Beta Search的AI。主要用到了如下技术：
                     <ul>
                         <li>Alpha Beta Search</li>
                         <li>Zobrist 置换表</li>

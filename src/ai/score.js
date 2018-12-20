@@ -7,23 +7,23 @@
 // 给单个棋型打分
 
 export default {
-  ONE: 10,
-  TWO: 100,
-  THREE: 1000,
-  FOUR: 100000,
-  FIVE: 10000000,
-  BLOCKED_ONE: 1,
-  BLOCKED_TWO: 10,
-  BLOCKED_THREE: 100,
-  BLOCKED_FOUR: 10000
+    ONE: 10,
+    TWO: 100,
+    THREE: 1000,
+    FOUR: 100000,
+    FIVE: 10000000,
+    BLOCKED_ONE: 1,
+    BLOCKED_TWO: 10,
+    BLOCKED_THREE: 100,
+    BLOCKED_FOUR: 10000
 }
 
 // 总分数
 var score = {
-  TWO: 'TWO', // 活二
-  TWO_THREE: 'TWO_THREE', // 双三
-  BLOCK_FOUR: 'BLOCKED_FOUR', // 冲四
-  FOUR_THREE: 'FOUR_THREE', // 冲四活三
-  FOUR: 'FOUR', // 活四
-  FIVE: 'FIVE', // 连五
+    TWO: 'TWO', // 活二
+    TWO_THREE: 'TWO_THREE', // 双三
+    BLOCK_FOUR: 'BLOCKED_FOUR', // 冲四
+    FOUR_THREE: 'FOUR_THREE', // 冲四活三
+    FOUR: 'FOUR', // 活四
+    FIVE: 'FIVE', // 连五
 }
