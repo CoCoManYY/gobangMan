@@ -19,4 +19,5 @@
 - 迭代加深
 - ...
 
-# 准备理解
+# 可以这么玩
+![](https://github.com/CoCoManYY/gobangMan/blob/master/public/img/QRcode.png?raw=true)
