@@ -26,7 +26,7 @@ const messages = {
             'loading': 'Loading...',
             'start': 'Click `Start` Button',
             'thinking': 'Thinking...',
-            'playing': 'Step: {step}, Time: {time}'
+            'playing': 'Please play chess'
         },
         'you lose': 'You Lose',
         'you win': 'You Win',
@@ -61,7 +61,7 @@ const messages = {
             'loading': '正在加载...',
             'start': '请点击 `开始` 按钮',
             'thinking': '正在思考...',
-            'playing': '步数: {step}, 时间: {time}'
+            'playing': '您请走哈哈哈'
         },
         'you lose': '你输了',
         'you win': '你赢了',
