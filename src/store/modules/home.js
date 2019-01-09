@@ -11,15 +11,18 @@ const state = {
     first: 1,
     randomOpening: true,
     deepList: [{
-        value: 4,
+        value: 2,
         title: 'idiot'
-    }, {
-        value: 6,
+    },{
+        value: 4,
         title: 'easy'
     }, {
-        value: 8,
+        value: 6,
         title: 'normal'
-    }]
+    } ,{
+        value: 8,
+        title: 'hard'
+    },]
 }
 
 const getters = {
