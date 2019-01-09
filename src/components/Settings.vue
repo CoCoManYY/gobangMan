@@ -16,14 +16,14 @@
                     </select>
                 </div>
             </div>
-            <div class="weui-cell weui-cell_switch">
-                <div class="weui-cell__hd">
-                    <label for="" class="weui-label">{{$t('step spread')}}:</label>
-                </div>
-                <div class="weui-cell__bd">
-                    <input class="weui-switch" type="checkbox" style="float:right" :checked="spread" @input="setSpread">
-                </div>
-            </div>
+            <!--<div class="weui-cell weui-cell_switch">-->
+                <!--<div class="weui-cell__hd">-->
+                    <!--<label for="" class="weui-label">{{$t('step spread')}}:</label>-->
+                <!--</div>-->
+                <!--<div class="weui-cell__bd">-->
+                    <!--<input class="weui-switch" type="checkbox" style="float:right" :checked="spread" @input="setSpread">-->
+                <!--</div>-->
+            <!--</div>-->
             <div class="weui-cell weui-cell_select weui-cell_select-after">
                 <div class="weui-cell__hd">
                     <label for="" class="weui-label">{{$t('lang')}}:</label>
